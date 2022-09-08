@@ -14,13 +14,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <main>
-        {/* Add Routes here! */}
-      </main>
-      <Footer />
-    </div>
+    <Router>
+        <Header />
+        <main>
+          {/* Add Routes here! */}
+        </main>
+        <Footer />
+    </Router>
   );
 }
 
