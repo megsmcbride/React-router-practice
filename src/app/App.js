@@ -30,10 +30,9 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/signUp">
+          <Route path="/sign-up">
             <SignUp />
           </Route>
-
           <Route path="/categories">
             <Categories />
           </Route>
